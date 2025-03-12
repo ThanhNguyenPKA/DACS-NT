@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 13, 2019 lúc 04:16 AM
+-- Thời gian đã tạo: Th1 13, 2025 lúc 04:16 PM
 -- Phiên bản máy phục vụ: 10.1.35-MariaDB
 -- Phiên bản PHP: 7.2.9
 
@@ -68,7 +68,7 @@ CREATE TABLE `comment` (
 
 INSERT INTO `comment` (`id`, `content`, `user_id`, `room_id`, `created_at`) VALUES
 (1, 'Phòng sạch sẽ, nhưng lối vào hơi nhỏ ạ!', 7, 28, '2019-01-07 05:11:10'),
-(2, 'Hay bị mất nước lắm ạ', 11, 28, '2018-12-31 20:00:00'),
+(2, 'Phòng hay bị mất nước lắm ạ', 11, 28, '2018-12-31 20:00:00'),
 (16, '1', 5, 21, '2019-01-09 10:48:14'),
 (17, '2', 5, 21, '2019-01-09 10:48:17'),
 (18, '3', 5, 21, '2019-01-09 10:48:21'),
